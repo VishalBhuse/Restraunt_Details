@@ -12,7 +12,7 @@ const Restaurant = ({restaurant}) => {
         <div className="restaurant-ratings">
             <i className="material-icons star-icon">star</i> {restaurant.rating}
         </div>
-         .<div className="restaurant-delivery-timings">{restaurant.deliveryTimings}</div> .
+         .<div className="restaurant-delivery-timings">{restaurant.deliveryTimings} MIN </div> .
         <div className="restaurant-cost-for-two">Rs.{restaurant.costForTwo}</div>
     </div>
     <div className="offer-banner">

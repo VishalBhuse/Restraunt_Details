@@ -120,10 +120,17 @@
 .restaurant-option {
   align-items: center;
   cursor: pointer;
-  margin-right: 60px;
+  margin-right: 40px;
   color: #3d4152;
   font-size: 16px;
   font-weight: 300;
+}
+.restaurant-option button{
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  color: gold;
+  background-color: rgb(145, 53, 37);
 }
 
 .divider {
